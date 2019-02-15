@@ -11,6 +11,7 @@
   <properties>
     <vertx.version>3.5.1</vertx.version>
     <vertx-maven-plugin.version>1.0.13</vertx-maven-plugin.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <vertx.verticle>io.vertx.intro.first.MyFirstVerticle</vertx.verticle>
   </properties>
@@ -39,7 +40,7 @@
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
-      <version>9.4.1212</version>
+      <version>42.2.5</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
